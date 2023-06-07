@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing Script:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script';
+}
+body {
+    background:rgb(0, 0, 0);
+   
+    height:-100px;
+    right: 500px;
+    background-repeat: repeat-y;
+    background-size: 10rem;
+
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    align-items: center;
+    height: 85px;
+}
+
+    .logo {font-size: 60px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700px;
+}
+    
+    .nav a {
+        font-size: 20px;
+        color: white;
+        font-weight: 600;
+        margin-left: 35px;
+        transition: .3s;
+        text-decoration: none;
+        background-color: transparent;
+    }
+    .nav a:hover
+    {
+        color:white;
+    }  
+    .contenido{
+        max-width: 900px;
+    }
+    .contenido h1 {
+    font-size: 40px;
+   
+    }
+     
+    .contenido h3 {
+        font-size:40px;
+
+       
+         color:white;
+    }   
+
+    .contenido .btn{
+        width: 400px;
+        height: 50px;
+        background:white;
+    }  
+    
+       
+    
+    
+    .yo h3{
+        font-size: 4.6rem; 
+        color: white;
+        position: absolute;
+        top: 55%;
+        left: 63%;
+        transform: translate(-50%, -50%);
+       bottom: 10px;
+       
+    }
+    .yo p{
+        font-size: 2.6rem; 
+        color: white;
+        position: absolute;
+        top: 74%;
+        left: 60%;
+        transform: translate(-50%, -50%);
+       bottom: 10px;
+       
+    }
+    
+       
+    .cbg {
+        background-image:url(https://i.pinimg.com/564x/02/c9/11/02c9111e2f725580bb381da2db8f7ea7.jpg);
+    
+    }
+    
+    
+       
+    
+       
+    .mi p{
+        font-size: 2.6rem; 
+        color: white;
+        position: absolute;
+        top: 45%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+       bottom: 10px;  
+    }
+    .mi h1{
+        font-size: 2.6rem; 
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+       bottom: 10px;  
+    }
+    .mi h2{
+        font-size: 2.6rem; 
+        color: white;
+        position: absolute;
+        top: 60%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+       bottom: 10px;  
+    }
+    .mi img{
+        position: relative;
+        height:60%;
+        width: 60%;
+        display:flex;
+        justify-content: right;
+        right: 300px;
+        padding: 0 10%;
+        bottom: 300px;
+        max-width: 500%;  
+    }
+        
+    .numero p{ 
+        font-size: 2.6rem; 
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+       bottom: 10px;  
+    }
+    .numero h3{ 
+        font-size: 1.6rem; 
+        color: white;
+        position: absolute;
+        top: 55%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+       bottom: 10px;  
+    }
+    .numero h2{ 
+        font-size: 1.6rem; 
+        color: white;
+        position: absolute;
+        top: 60%;
+        left: 15%;
+        transform: translate(-50%, -50%);
+       bottom: 10px;  
+    }
+    .nuevo p{ 
+        font-size: 2.6rem; 
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+       bottom: 10px;  
+    }
+    .numero h1{ 
+        font-size: 1.6rem; 
+        color: white;
+        position: absolute;
+        top: 65%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+       bottom: 10px;  
+    }
+
+    .instagram img{
+        position: relative;
+        height:50%;
+        width: 50%;
+        display:flex;
+        justify-content: right;
+        right: -900px;
+        padding: 0 10%;
+        bottom: 800px;
+        max-width: 500%;  
+    }
+
+    
+
+
+        
